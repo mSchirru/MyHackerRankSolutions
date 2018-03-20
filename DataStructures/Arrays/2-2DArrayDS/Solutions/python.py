@@ -1,5 +1,5 @@
 #!/bin/python3
-#Author: Alexandre marcos
+#Colab Author: Alexandre marcos
 
 import sys
 
