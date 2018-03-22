@@ -6,6 +6,7 @@ def diagonalDifference(a):
         diagonalPrincipal = diagonalPrincipal + a[x][x]
         diagonalSecundaria = diagonalSecundaria + a[x][ultimaPosicao - x]
     return abs(diagonalPrincipal - diagonalSecundaria)
+    
 if __name__ == "__main__":
     n = int(input().strip())
     a = []
